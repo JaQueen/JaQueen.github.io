@@ -1,76 +1,69 @@
 html {
 	display: block;
 }
-.wrapper {
-	margin: inherit;
-	background-color: red;
-	height: 130px;
-	width: 320px;
-	padding: inherit;
+body {
+	background-color: #F2F2F2;
+	margin: 0px;
+	}
+main {
+	width: 600px;
 	float: right;
+	margin-right: 25px;
+	height: 100%;
+
 }
-.info {
-	background-color: purple;
-	height: 230px;
-	width: 420px;
-	padding: inherit;
+nav {
 	float: right;
+	font-size: 22px;
 }
-.circles {
-	height: 150px;
-	background-image: url('Circle line.png');
-	width: 450px;
-	background-size: fixed;
-	background-repeat: no-repeat;
-	float: right;
-}
-div {
-	display: block;
-	background-color: blue;
-}
-#nav {
-	float: right;
-	margin-bottom: 3px
-}
-li {
-	display: inline;
-	margin-right: 60px;
+nav a {
+	display: inline-block;
+	margin: 30px;
 	font-family: 'Rock Salt', cursive;
-	font-size: 14px;
+	font-size: 10px;
 	padding: .3em;
 	color: 73F3D0;
 	text-shadow: 2px 2px 10px #111111;
-	background-color: yellow;
+	text-decoration: none;
 }
-#logo {
-	height: 50px;
+footer {
+	position: inherit;
+	bottom: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 150px;
 	background-image: url('wood.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-
+	clear: both;
 }
-body {
-	background-image: url("");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-color: #F2F2F2;
+div {
 	display: block;
-	margin: 5px;
-	margin-top: 3px;
-	margin-left: 5px;
-	width: relative;
+}
+img {
+	display: block;
+	float: left;
+}
+li {
+	text-decoration: none;
+	display: inline;
+	margin-right: 60px;
+	font-family: 'Rock Salt', cursive;
+	font-size: 10px;
+	padding: .3em;
+	color: 73F3D0;
+	text-shadow: 2px 2px 10px #111111;
+	line-height: 100px;
 }
 h1 {
 	font-family: 'Merriweather', serif;	
-	font-size: 45px;
+	font-size: 55px;
 	padding: 2px;
-	color: #A6A6A6;
+	color: #DBFFFF;
 	text-align: left;
-	line-height: 45px;
-	background-color: pink;
+	line-height: 10px;
+	text-shadow: 2px 2px 10px #111111;
 }
 h2 {
-	font-family: 'Merriweather', serif;
+	font-family: 'lobster two', serif;
 	font-size: 14px;
 	font-weight: 300;
 	color: #A6A6A6;
@@ -78,19 +71,106 @@ h2 {
 }
 p {
 	font-family: 'Merriweather', serif;	
-	font-size: 18px;
+	font-size: 24px;
 	text-align: left;
 	color: black;
-	background-color: orange;
 }
 
-header {
-	padding-bottom: 15px;
-	width: 145px;
-	height: 44px;
-	background-image: url('wood.jpg');
-}
+
 hr {
 	width: 50px;
 	background-color: aqua;
+}
+
+a:hover {
+	color: #DBFFFF;
+}
+.clearfix:after {   
+
+	visibility: hidden;   
+	display: block;   
+	font-size: 0;   
+	content: " ";   
+	clear: both;   
+	height: 0; 
+}
+.wrapper {
+	margin: inherit;
+	height: 130px;
+	width: 450px;
+	padding: inherit;
+	float: right;
+	margin-top: 100px;
+	margin-right: 50px;
+}
+#jacquie {
+	float:right;
+	display: inline-block;
+}
+.info {
+	height: 230px;
+	width: 450px;
+	padding: inherit;
+	float: right;
+	margin-right: 50px;
+	display: inline;
+}
+.circles {
+	display: inline-block;
+	text-align: center;
+	padding: 10px 10px 10px;
+	float: right;
+}
+#resumecircle {
+	height: 130px;
+	width: 130px;
+	background-size: fixed;
+	background-color: #73F3D0;
+	float: right;
+	border-radius: 100%;
+	margin-top: center;
+	margin-right: 50px;
+	left: 473px;
+	font-family: 'Rock Salt', cursive;
+	text-decoration: none;
+
+}
+#workcircle {
+	height: 130px;
+	width: 130px;
+	background-size: fixed;
+	background-color: #A7FBDA;
+	float: right;
+	border-radius: 100%;
+	margin-top: center;
+	left: 626px;
+	font-family: 'Rock Salt', cursive;
+	font-size: 15px;
+}
+#skillcircle {
+	height: 130px;
+	width: 130px;
+	background-size: fixed;
+	background-color: #A7D0C0;
+	float: right;
+	border-radius: 100%;
+	margin-top: center;
+	left: 779px;
+	font-family: 'Rock Salt', cursive;
+}
+.resume {
+	display: inline-block;
+	border-radius: 100%;
+	float: right;
+}
+.resumepage {
+	background-image: url('myresume.jpg');
+	background-size: cover;
+}
+.picture {
+	background-image: url('jacquie.png');
+	height: 300px;
+	width: 300px;
+	background-repeat: no-repeat;
+	display: block;
 }
