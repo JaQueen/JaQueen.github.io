@@ -34,6 +34,7 @@ footer {
 	height: 150px;
 	background-image: url('wood.jpg');
 	clear: both;
+	display: inline-block;
 }
 div {
 	display: block;
@@ -41,6 +42,7 @@ div {
 img {
 	display: block;
 	float: left;
+	clear: both;
 }
 li {
 	text-decoration: none;
@@ -95,7 +97,6 @@ a:hover {
 	height: 0; 
 }
 .wrapper {
-	margin: inherit;
 	height: 130px;
 	width: 450px;
 	padding: inherit;
@@ -110,7 +111,6 @@ a:hover {
 .info {
 	height: 230px;
 	width: 450px;
-	padding: inherit;
 	float: right;
 	margin-right: 50px;
 	display: inline;
@@ -133,7 +133,6 @@ a:hover {
 	left: 473px;
 	font-family: 'Rock Salt', cursive;
 	text-decoration: none;
-
 }
 #workcircle {
 	height: 130px;
@@ -158,6 +157,17 @@ a:hover {
 	left: 779px;
 	font-family: 'Rock Salt', cursive;
 }
+.contact {
+	font-family: 'Merriweather', serif;
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	display: inline-block;
+	margin: 50px;
+	text-align: center;
+	line-height: 30px;
+}
+
 .resume {
 	display: inline-block;
 	border-radius: 100%;
@@ -166,11 +176,4 @@ a:hover {
 .resumepage {
 	background-image: url('myresume.jpg');
 	background-size: cover;
-}
-.picture {
-	background-image: url('jacquie.png');
-	height: 300px;
-	width: 300px;
-	background-repeat: no-repeat;
-	display: block;
 }
