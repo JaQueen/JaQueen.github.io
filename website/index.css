@@ -1,23 +1,24 @@
 html {
-	display: block;
+	display: inline-block;
 }
 body {
 	background-color: #F2F2F2;
-	margin: 0px;
-	}
-main {
-	width: 600px;
+	margin: 0 auto;
+	display: inline;
+}
+.main {
+	width: 100%;
 	float: right;
-	margin-right: 25px;
+	margin: 0 auto;
 	height: 100%;
-
 }
 nav {
 	float: right;
 	font-size: 22px;
+	width: 100%;
 }
 nav a {
-	display: inline-block;
+	display: inline;
 	margin: 30px;
 	font-family: 'Rock Salt', cursive;
 	font-size: 10px;
@@ -25,24 +26,19 @@ nav a {
 	color: 73F3D0;
 	text-shadow: 2px 2px 10px #111111;
 	text-decoration: none;
+	float: right;
 }
 footer {
 	position: inherit;
-	bottom: 0px;
-	margin: 0px;
+	margin: 0 auto;
 	width: 100%;
-	height: 150px;
+	height: 100%;
 	background-image: url('wood.jpg');
 	clear: both;
 	display: inline-block;
 }
 div {
-	display: block;
-}
-img {
-	display: block;
-	float: left;
-	clear: both;
+	display: inline-block;
 }
 li {
 	text-decoration: none;
@@ -65,11 +61,12 @@ h1 {
 	text-shadow: 2px 2px 10px #111111;
 }
 h2 {
-	font-family: 'lobster two', serif;
-	font-size: 14px;
-	font-weight: 300;
+	font-family: 'Merriweather', serif;
+	font-size: 19px;
 	color: #A6A6A6;
-
+	text-align: left;
+	line-height: 20px;
+	font-weight: 100;
 }
 p {
 	font-family: 'Merriweather', serif;	
@@ -78,84 +75,72 @@ p {
 	color: black;
 }
 
-
-hr {
-	width: 50px;
-	background-color: aqua;
+#content {
+	overflow: auto;
 }
-
 a:hover {
 	color: #DBFFFF;
 }
 .clearfix:after {   
-
 	visibility: hidden;   
-	display: block;   
+	display: inline;   
 	font-size: 0;   
 	content: " ";   
 	clear: both;   
 	height: 0; 
 }
-.wrapper {
-	height: 130px;
-	width: 450px;
-	padding: inherit;
-	float: right;
-	margin-top: 100px;
-	margin-right: 50px;
-}
-#jacquie {
-	float:right;
+
+.column1 {
 	display: inline-block;
+	width: 300px;
+	float: left;
+	padding: 10px 10px 10px;
 }
-.info {
-	height: 230px;
-	width: 450px;
-	float: right;
-	margin-right: 50px;
-	display: inline;
-}
-.circles {
+.column2 {
 	display: inline-block;
 	text-align: center;
 	padding: 10px 10px 10px;
-	float: right;
+	float: left;
+	width: 400px;
+}
+#circles {
+	display: inline;
 }
 #resumecircle {
 	height: 130px;
 	width: 130px;
 	background-size: fixed;
 	background-color: #73F3D0;
-	float: right;
+	float: left;
 	border-radius: 100%;
-	margin-top: center;
-	margin-right: 50px;
-	left: 473px;
 	font-family: 'Rock Salt', cursive;
 	text-decoration: none;
+	line-height: 130px;
+	margin-bottom: 20px;
 }
 #workcircle {
 	height: 130px;
 	width: 130px;
 	background-size: fixed;
 	background-color: #A7FBDA;
-	float: right;
+	float: left;
 	border-radius: 100%;
-	margin-top: center;
-	left: 626px;
 	font-family: 'Rock Salt', cursive;
-	font-size: 15px;
+	text-decoration: none;
+	line-height: 130px;
+	margin-bottom: 20px;
 }
 #skillcircle {
 	height: 130px;
 	width: 130px;
 	background-size: fixed;
 	background-color: #A7D0C0;
-	float: right;
+	float: left;
 	border-radius: 100%;
-	margin-top: center;
-	left: 779px;
 	font-family: 'Rock Salt', cursive;
+	text-decoration: none;
+	line-height: 130px;
+	margin-bottom: 20px;
 }
 .contact {
 	font-family: 'Merriweather', serif;
@@ -163,9 +148,9 @@ a:hover {
 	color: white;
 	font-size: 16px;
 	display: inline-block;
-	margin: 50px;
+	margin: .5%;
 	text-align: center;
-	line-height: 30px;
+	line-height: 50px;
 }
 
 .resume {

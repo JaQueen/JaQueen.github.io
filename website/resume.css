@@ -2,10 +2,11 @@ html {
 	display: block;
 }
 body {
-	background-color: #F2F2F2;
+	background-image:  #F2F2F2;
 	margin: 0px;
 	}
-main {
+
+.main {
 	width: 600px;
 	float: right;
 	margin-right: 25px;
@@ -28,21 +29,16 @@ nav a {
 }
 footer {
 	position: inherit;
-	bottom: 0px;
-	margin: 0px;
+	bottom: 0%;
+	margin: 0%;
 	width: 100%;
-	height: 150px;
+	height: 100%;
 	background-image: url('wood.jpg');
 	clear: both;
 	display: inline-block;
 }
 div {
 	display: block;
-}
-img {
-	display: block;
-	float: left;
-	clear: both;
 }
 li {
 	text-decoration: none;
@@ -99,6 +95,7 @@ a:hover {
 	float: right;
 	margin-top: 100px;
 	margin-right: 50px;
+	background-color: blue;
 }
 .contact {
 	font-family: 'Merriweather', serif;
@@ -106,14 +103,15 @@ a:hover {
 	color: white;
 	font-size: 16px;
 	display: inline-block;
-	margin: 50px;
+	margin: .5%;
 	text-align: center;
-	line-height: 30px;
+	line-height: 50px;
 }
 .resumepage {
-	display: block;
-	margin: 10px;
+	display: inline-block;
+	margin: 100px;
+	margin-bottom: 100px;
 	clear: both;
-	width: 600px;
+	width: 500px;
 
 }
